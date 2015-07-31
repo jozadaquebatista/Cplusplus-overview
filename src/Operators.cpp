@@ -15,12 +15,16 @@ int main()
   
   int five = 5;
 
-  std::cout << "5++=" << five++ << std::endl;
+  /*std::cout << "5++=" << five++ << std::endl;
   std::cout << "++5=" << ++five << std::endl;
   std::cout << "5--=" << five-- << std::endl;
-  std::cout << "--5=" << --five << std::endl;
+  std::cout << "--5=" << --five << std::endl;*/
   
-  std::cout << "The result of(1+2-3*4/5): " << 1+2-3*4/5 << std::endl;
+  std::cout << "The result of(1+2-3*4/five): " << 1+2-3*4/five << std::endl;
+  
+  // We can too casting the result to a float.
+  
+  std::cout << "The result of((1+2-3*4/five)*54): " << ((float)((1+2-3*4/five)*54)/33) << std::endl;
   
   return(0);
 

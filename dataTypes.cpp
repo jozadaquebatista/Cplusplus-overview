@@ -1,5 +1,7 @@
 #include <iostream>
 
+/* To compile it use: g++ -o name_your_file name_file.cpp -std=c++11 */
+
 int main()
 {
 

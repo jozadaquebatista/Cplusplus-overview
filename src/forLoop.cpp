@@ -24,7 +24,8 @@ int main()
   *  so I declared 2 rows for my array,
   *  and the second bracket is my columns value.
   *
-  * ILUSTRATION OF THE ARRAY
+  * ILUSTRATION OF THE ARRAY - MYARRAY[2][8]
+  * Where number rows is: 2, and columns is: 8.
   *
   * MY ARRAY WILL'BE LIKE THIS
   * 
@@ -37,6 +38,15 @@ int main()
   std::cout << "My name is: " << myName[0] << " " << myName[1] << std::endl;
   std::cout << "2nd letter in 2nd array is " << myName[1][1] << std::endl;
 
+  /* FOR() LOOPS */
+  
+  for(int i = 1; i <= 10; i++)
+  {
+  
+    std::cout << i << std::endl;
+  
+  }
+  
   return(0);
 
 }

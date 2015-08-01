@@ -23,11 +23,24 @@ int addNumbers(int firstNum, int secondNum, int thirdNum)
   
 }
 
+int getFactorial(int number)
+{
+
+  int sum;
+  if(number == 1) sum = 1;
+  else sum = (getFactorial(number - 1) * number);
+
+  return sum;
+  
+}
+
 int main()
 {
 
   std::cout << addNumbers(1) << std::endl;
   std::cout << addNumbers(1,5,6) << std::endl;
+  
+  std::cout << "The factorial of 3 is " << getFactorial(3) << std::endl;
   
   return(0);
 

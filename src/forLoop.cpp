@@ -47,6 +47,19 @@ int main()
   
   }
   
+  for(int j = 0; j < 2; j++)
+  {
+  
+    for(int k = 0; k < 9; k++)
+    {
+    
+      std::cout << myName[j][k];
+    
+    }
+  
+    std::cout << std::endl;  
+  }
+  
   return(0);
 
 }

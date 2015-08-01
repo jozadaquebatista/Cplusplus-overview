@@ -14,11 +14,11 @@ int main()
   
     std::cout << "Guess between 1 and 10: ";
     
-    getLine(cin, numberGuessed);
+    getline(std::cin, numberGuessed);
     
     intNumberGuessed = stoi(numberGuessed);
   
-  } while(intNumberGuessed != 4)
+  } while(intNumberGuessed != 4);
   
   std::cout << "You win." << std::endl;
   

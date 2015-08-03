@@ -83,8 +83,10 @@ int main()
   Animal *ptrGShepard = &max;
   
   ptrDog -> getFamily();
-  
+
   ptrDog -> getClass();
+
+  ptrGShepard -> getClass();
   
   return(0);
 

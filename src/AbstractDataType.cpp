@@ -27,7 +27,7 @@ class Cat : public Animal
 {
 
 public:
-  void makeSound() { std::cout << "The Dog says meow" << std::endl; }
+  void makeSound() { std::cout << "The Cat says meow" << std::endl; }
 
 };
 
@@ -61,6 +61,10 @@ int main()
   
   pCat->makeSound();
   pDog->makeSound();
+  
+  Car *stationWagon = new StationWagon();
+  
+  stationWagon->getNumWheels();
   
   return(0);
 

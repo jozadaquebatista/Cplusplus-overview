@@ -2,4 +2,4 @@
 An overview of cplusplus functionality.
 
 # The Power of C++
-<p align="center"><img src="cover/cpp_logo.png" width="70" /></p>
+<p align="center"><img src="cover/cpp_logo.png" width="150" /></p>

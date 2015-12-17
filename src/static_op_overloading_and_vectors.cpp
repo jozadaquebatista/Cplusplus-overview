@@ -38,6 +38,9 @@ public:
 
 int main( int argc, char **argv )
 {
+    // The best way to do this is using non-dynamic objects, 'cause of automatic memory handling
+    // However you can do the same with a little more work using dynamic objects;
+    
     Vector2f v1(10, 5), v2(5, 5), v3(0,0), v4(0,0);
 
     // These two ways, generate the same result
@@ -63,7 +66,7 @@ Vector2f::Vector2f(float x=0, float y=0)
 }
 Vector2f Vector2f::operator+(Vector2f &v )
 {
-    return Vector2f( this->x + v.x, this->y + v.y);
+    return Vector2f( this->x + v.x, this->y + v.y); // This will return a new Vector2f address
 }
 
 float Vector2f::getX()const{ return x; }

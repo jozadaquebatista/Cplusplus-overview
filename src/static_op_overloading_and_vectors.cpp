@@ -9,7 +9,8 @@
 *
 *    IT IS REALLY A BIT COMPLICATED TO
 *    UNDERSTAND, HOWEVER THAT IS A GOOD
-*    RESOURCE(and c++ feature) TO KNOW.
+*    RESOURCE(and c++ feature) TO KNOW
+*    HOW TO WORK WITH.
 *
 ****************************************/
 

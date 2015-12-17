@@ -29,13 +29,9 @@ private:
 
 public:
     Vector2f( float, float );
-
     Vector2f operator+( Vector2f& );
-
     virtual ~Vector2f(); // I'm using virtual, 'cause this will be a sample base class
-
     float getX()const;
-
     float getY()const;
 
 }; // END OF CLASS DEFINITION

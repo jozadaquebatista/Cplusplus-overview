@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include <vector>
 
 class Say
@@ -47,4 +48,7 @@ int main()
 		// Note the node of vector can be erased, but the instance still live
 		// in the memory.
 	}
+	
+	delete p;
+	return EXIT_SUCCESS;
 }
